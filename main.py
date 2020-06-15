@@ -2,7 +2,7 @@ import sys
 
 def get_hello_str(lang):
     if lang == "ru":
-        return "Привет"
+        return "Добрый день"
     elif lang == "fr":
         return "Bonjour"
     else:
@@ -16,7 +16,7 @@ def get_person_name(args):
         return "world"
 
 person = get_person_name(sys.argv)
-lang = sys.argv[2] if (len(sys.argv) > 2) else "en"
+lang = sys.argv[2] if (len(sys.argv) > 2) else "en" 
 
 hello_str = get_hello_str(lang) + ","
 
