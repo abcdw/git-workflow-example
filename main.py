@@ -2,7 +2,7 @@ import sys
 
 def get_hello_str(lang):
     if lang == "ru":
-        return "Добрый день"
+        return "Привет"
     elif lang == "fr":
         return "Bonjour"
     else:
